@@ -1,3 +1,3 @@
-def response = httpRequest "https://3.209.99.235"
+def response = httpRequest "https://httpbin.org"
 println('Status: '+response.status)
 println('Response: '+response.content)
